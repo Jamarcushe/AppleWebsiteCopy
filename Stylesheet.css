@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+#nav-background{
+    background: rgba(0,0,0,0.3);
+    position: static;
+    width: 100%;
+    height: 44px;
+
+
+}
+
+#navbar{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+    max-height: 44px;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+
+
+
+    
+}
+
+#navbar ul{
+    display: block;
+    list-style-type: disc;
+    width: 60vw;
+    height: 44px;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+#navbar a{
+    justify-content: center;
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: grey;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    opacity: .8;
+    text-decoration: none;
+    
+
+}
+#navbar a:hover{
+    color: #f5f5f7;
+}
+.container{
+    margin: auto;
+    width: 100vw;
+    height: 750px;
+}
+
+#mainImg{
+    width: 100vw;
+    
+}
+
+#header-iphone-se{
+    position: relative;
+    justify-content: center;
+    color: white;
+    margin: auto;
+
+    top: -800px;
+    z-index: 900;
+    text-align: center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; 
+   
+}
+#header-iphone-se h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+#header-iphone-se h2{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header-iphone-se a{
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#header-iphone-se a:hover{
+    text-decoration: underline;
+    
+}
+.container-2{
+    height: 600px;
+}
+#iphone11-Img{
+    width: 100vw;
+    
+}
+#header-iphone-11{
+    position: relative;
+    justify-content: center;
+    color: black;
+    margin: auto;
+
+    top: -600px;
+    z-index: 900;
+    text-align: center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; 
+   
+}
+#header-iphone-11 h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+#header-iphone-11 h2{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header-iphone-11 a{
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#header-iphone-11 a:hover{
+    text-decoration: underline;
+}
+
+#apple-tv{
+    width: 100vw;
+}
+
+#header-apple-tv{
+    position: relative;
+    text-align: center; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; 
+    top: -80px;
+}
+#header-apple-tv a{
+    text-decoration: none;
+    color: white;  
+    font-size: 20px;
+}
+#header-apple-tv a:hover{
+    text-decoration: underline;
+}   
+.two-side-container{
+    display: flex;
+    color: black;
+}
+#ipad{
+    width: 50vw;
+    margin: 10px;
+
+}
+#watch{
+    width: 50vw;
+    margin: 10px;
+}
+#learn-more-left{
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    
+}
+#learn-more-right{
+    position: relative;
+    margin: auto;
+}
